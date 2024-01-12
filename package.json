@@ -1,0 +1,24 @@
+{
+  "name": "realsenseaddon",
+  "version": "0.1.0",
+  "description": "Node.js addon for Intel RealSense cameras",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-gyp rebuild",
+    "test": "node test.js"
+  },
+  "keywords": ["realsense", "3d-camera", "node-addon"],
+  "author": "Botirjon Uraimov",
+  "license": "ISC",
+  "dependencies": {
+    "node-addon-api": "^7.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BotirjonUraimov/realsenseaddon.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BotirjonUraimov/realsenseaddon/issues"
+  },
+  "homepage": "https://github.com/BotirjonUraimov/realsenseaddon#readme"
+}
